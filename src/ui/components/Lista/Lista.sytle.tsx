@@ -8,7 +8,6 @@ export const ListaStyled = styled('ul')`
 `;
 
 export const ItemLista = styled('li')`
-
     display:grid;
     grid-template-columns: repeat(2,1fr);
     gap:${({ theme }) => theme.spacing(5)};
